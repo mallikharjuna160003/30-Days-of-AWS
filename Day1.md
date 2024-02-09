@@ -1,13 +1,18 @@
 # Day 1
 [CloudFair](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)
-- **What is Cloud?**<br>
+- **What is Cloud?** <br>
  "The cloud" refers to servers that are accessed over the Internet, and the software and databases that run on those servers. Cloud servers are located in data centers all over the world. By using       cloud computing, users and companies do not have to manage physical servers themselves or run software applications on their own machines.<br>
   The cloud enables users to access the same files and applications from almost any device, because the computing and storage takes place on servers in a data center, instead of locally on the user      device. This is why a user can log in to their Instagram account on a new phone after their old phone breaks and still find their old account in place, with all their photos, videos, and               conversation history. It works the same way with cloud email providers like Gmail or Microsoft Office 365, and with cloud storage providers like Dropbox or Google Drive.<br>
   
   For businesses, switching to cloud computing removes some IT costs and overhead: for instance, they no longer need to update and maintain their own servers, as the cloud vendor they are using will     do that. This especially makes an impact for small businesses that may not have been able to afford their own internal infrastructure but can outsource their infrastructure needs affordably via the    cloud. The cloud can also make it easier for companies to operate internationally, because employees and customers can access the same files and applications from any location.<br>
  ---
  ![image](https://github.com/mallikharjuna160003/30-Days-of-Devops/assets/74324685/ce9644a4-26f6-4aba-a4ca-6d969b5111d5)
+- **How Cloud work?:**
+Cloud computing is possible because of a technology called virtualization. Virtualization allows for the creation of a simulated, digital-only "virtual" computer that behaves as if it were a physical computer with its own hardware. The technical term for such a computer is virtual machine. When properly implemented, virtual machines on the same host machine are sandboxed from one another, so they do not interact with each other at all, and the files and applications from one virtual machine are not visible to the other virtual machines even though they are on the same physical machine.
 
+Virtual machines also make more efficient use of the hardware hosting them. By running many virtual machines at once, one server can run many virtual "servers," and a data center becomes like a whole host of data centers, able to serve many organizations. Thus, cloud providers can offer the use of their servers to far more customers at once than they would be able to otherwise, and they can do so at a low cost.
+
+- **What are the main service models of cloud computing?**
 - **Software-as-a-Service (SaaS):** Instead of users installing an application on their device, SaaS applications are hosted on cloud servers, and users access them over the Internet. SaaS is like renting a house: the landlord maintains the house, but the tenant mostly gets to use it as if they owned it. Examples of SaaS applications include Salesforce, MailChimp, and Slack.
 
 - **Platform-as-a-Service (PaaS):** In this model, companies don't pay for hosted applications; instead they pay for the things they need to build their own applications. PaaS vendors offer everything necessary for building an application, including development tools, infrastructure, and operating systems, over the Internet. PaaS can be compared to renting all the tools and equipment necessary for building a house, instead of renting the house itself. PaaS examples include Heroku and Microsoft Azure.
