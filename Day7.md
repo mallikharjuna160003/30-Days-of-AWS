@@ -137,4 +137,7 @@ Change the inbound rules of the load balancer traffic
 Now access the application via the DNS name of the Application Load balancer.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/88db9feb-9266-4792-a5a0-1a4df8b199da)
 
+The target group checking the health of the EC2 instances where the application is deployed.
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e0224249-4d07-413f-8e37-eef7e7cd2718)
 
