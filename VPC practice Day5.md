@@ -9,3 +9,8 @@ Network Access Control List (NACL):
 We can use the Security Group and NACL combination but the NACL only have deny/allow options and SG has only allow option.
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/c7cee7e3-991c-48b3-9f14-5eabd49bd61a)
+Security is a shared responsibility.
+# Creating VPC
+1. AWS default create the Internet gate way,NACL default configuration,Route Table,Public and Private subnets.
+2. We only required to create the EC2 instances.
+   ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/b16ff885-7914-4b21-a760-f477f1a3288f)
