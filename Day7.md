@@ -61,7 +61,10 @@ Follow the steps showing in the diagram
 This is exactly similar to EC2 instance creation
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/b24ee954-12d0-487e-89ac-18ac6c85ed6b)
+
 For the launch template creation few complex steps
+
+
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/02cc1f3f-fbed-4c87-848c-f22a909258e4)
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e8bd550e-0b16-448b-aa3a-4c8ea2b2f7a5)
 
