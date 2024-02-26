@@ -67,10 +67,13 @@ For the launch template creation few complex steps
 
 # To create the Auto Scaling Group diagramatically
 - The instances should be created in the private subnet.
+  
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a75cfe22-7ef4-4e32-bf29-80b9886b0ff8)
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/40275028-ca89-4a10-97d3-da85550b3147)
+
 Not attaching any load balancer now. We will create in the Public subnet.
+
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/c4393bbe-de4d-418c-885b-b6cec4dbf9ba)
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/6d016135-4a74-44eb-9edb-75679b9cea85)
@@ -78,13 +81,16 @@ Not attaching any load balancer now. We will create in the Public subnet.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/8ffe6047-4efe-44c7-9c36-6b704205c678)
 
 Finally!!... Goto the EC2 instances we are able to see the 2 instances running. in us-east-1b
+
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/cd62ca9b-2708-49a9-b2d2-3fe88c5db31f)
 
 # Before setting up the Public subnet lets deploy the application in private subnet via bastion host.
 1. Create an Ec2 instance name it as bastion host <bold>t2-micro, key-pair,Security group (ssh),Network settings select the same VPC,select the public subnet,Auto Assign Public IP address</bold> Launch the instance.
 2. ssh to the bastion host.Below image to send the .pem file to basition host from local host with .pem file access in local terminal.
+   
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/133e3bd8-4fb2-4f00-9e9b-a49bb86e5899)
-3. This bastion host accessing the Private subnet with key-pair .pem file to the the private EC2 instances.
-4. Now successfully logged-in into the Private EC2 instances creates an index.html file.
-5. The other Ec2 instance has not available the application index.html so the requests will come to from ALB to App available host.
+
+4. This bastion host accessing the Private subnet with key-pair .pem file to the the private EC2 instances.
+5. Now successfully logged-in into the Private EC2 instances creates an index.html file.
+6. The other Ec2 instance has not available the application index.html so the requests will come to from ALB to App available host.
 
