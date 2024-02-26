@@ -36,4 +36,22 @@ We can create EC2 instances using the CLI and UI interface.
 Finally instance got created.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e4dcc181-960a-4165-8551-19743797cca7)
 
+Goto the EC2 dashboard click on the running instance
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/73792d72-b9d4-4ecf-be5f-1990dcb4d393)
+The instance IP address subnet VPC all the details are available.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a415d0b9-6994-4bb8-9824-9fc2a67cd62b)
+
+to access the EC2 using the terminal download the key paid .pem file change the permissions to 600 read,write for the user not the groups and others
+>> chmod 600 aws_pair.pem
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/34ad3a8d-8097-4726-8f31-8c6414fecd2e)
+for performing root user actions
+```sh
+sudo su
+apt update -> for update the default applications packages
+```
+
+
+
+
+
 
