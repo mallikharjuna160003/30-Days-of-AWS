@@ -111,6 +111,12 @@ Finally!!... Goto the EC2 instances we are able to see the 2 instances running. 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/917a689c-d67e-4db0-b9fe-b642390b03f1)
 
 # To Create Target Groups
+Target groups route requests to individual registered targets, such as EC2 instances, using the protocol and port number that you specify. You can register a target with multiple target groups. You can configure health checks on a per target group basis. Health checks are performed on all targets registered to a target group that is specified in a listener rule for your load balancer.
+
+Each target group is used to route requests to one or more registered targets. When you create each listener rule, you specify a target group and conditions. When a rule condition is met, traffic is forwarded to the corresponding target group. You can create different target groups for different types of requests. For example, create one target group for general requests and other target groups for requests to the microservices for your application. You can use each target group with only one load balancer. For more information, see Application Load Balancer components.
+
+You define health check settings for your load balancer on a per target group basis. Each target group uses the default health check settings, unless you override them when you create the target group or modify them later on. After you specify a target group in a rule for a listener, the load balancer continually monitors the health of all targets registered with the target group that are in an Availability Zone enabled for the load balancer. The load balancer routes requests to the registered targets that are healthy.
+
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/9e66619c-17bb-485c-8d49-0a6138a682ba)
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/16e5bcf6-a9ad-402c-a243-5343181c9878)
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/05604ea2-4134-474c-8b69-deec252262fb)
