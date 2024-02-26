@@ -99,3 +99,28 @@ Finally!!... Goto the EC2 instances we are able to see the 2 instances running. 
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/bd122f30-da1a-4189-91a0-cb1467e9cf6b)
 
+
+# Application Load Balancer
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/b70133c2-7ab8-4d63-84fc-e61f2ce934b3)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e98445ff-8ecd-4f69-a4a6-773dc23c987b)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/10223827-abf9-4039-bbee-66700216c8c8)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/79a8ceba-636f-4af5-aa31-eedbf6fde9e9)
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/917a689c-d67e-4db0-b9fe-b642390b03f1)
+
+# To Create Target Groups
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/9e66619c-17bb-485c-8d49-0a6138a682ba)
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/16e5bcf6-a9ad-402c-a243-5343181c9878)
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/05604ea2-4134-474c-8b69-deec252262fb)
+
+One instancce has Application other dont have
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/77e81166-fc73-4de3-95b3-c5ccba1ba8ea)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/c175095a-7f89-43d6-9745-418e3ef5e902)
+
+
+
+
