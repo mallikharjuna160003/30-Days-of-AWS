@@ -115,12 +115,13 @@ Finally!!... Goto the EC2 instances we are able to see the 2 instances running. 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/16e5bcf6-a9ad-402c-a243-5343181c9878)
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/05604ea2-4134-474c-8b69-deec252262fb)
 
-One instancce has Application other dont have
+One instancce has Application other dont have, In the target group instances port should be same as EC2 instances port. To give the Configuration in Load Balancer.
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/77e81166-fc73-4de3-95b3-c5ccba1ba8ea)
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/c175095a-7f89-43d6-9745-418e3ef5e902)
 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/835dd6ca-2f8d-46d0-ad19-91cb394f5712)
 
 
 
