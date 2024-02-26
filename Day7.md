@@ -27,6 +27,13 @@ The following is an example of the rules that you might create for the security 
 # To create the VPC
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/d74057b7-f8da-42a8-8728-8d7ab85287eb)
 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/5088f9af-a92a-4517-b79f-66a7d7336f9c)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/8a2a998f-285a-4dfb-a301-c758fb48d3e0)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e97966de-542c-4f7d-8946-0f95ffbd2b36)
+
+
 
 
 
