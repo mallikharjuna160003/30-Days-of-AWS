@@ -42,4 +42,5 @@ try to access in web browser you can see the result because of the inbound rules
 in the VPC network ACL all traffic is allowing here the rule number presence order in the table is first will be taken for configuration.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/55acf60c-7096-432f-9cbe-665164f78c7e)
 
+If the NACL inbound rule has block/deny setting then the internet access to entire vpc is blocked.If the port is in block inbound rule then there will be no access to the internet for entire VPC or subnet.
 
