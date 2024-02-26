@@ -18,13 +18,17 @@ Security is a shared responsibility.
 4. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/fcc6b1fb-4f1a-4660-a55a-021f07066a46)
 5. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/28e7711d-888f-4f67-91a6-cd04218be4c4)
 6. We have to configure the Network configuration, Availability zones,subnets,Security etc.
-7. After Creating the VPC
+7. After Successfully Creating the VPC
    
 9. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/75b8f8d0-a43e-4383-99c6-12c327e3151a)
    
 10. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e8012451-fcc4-4d60-a1aa-2e332554b328)
 
 11. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/3bca9cf6-8427-4ffe-a5d0-931dc79107ce)
+12. Now create the Ec2 instances in the network configuration change the VPC to custom and update according to the private/public subnet
+13. Enable Assign public IP, Create security group for now use the default and launch the instance
+14. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a4fe52df-a8a3-4aae-8a9e-cf509c5c8fe4)
+15. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/295128a8-1596-4103-b406-d206ee260693)
 
 
 
