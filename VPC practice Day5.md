@@ -29,6 +29,17 @@ Security is a shared responsibility.
 13. Enable Assign public IP, Create security group for now use the default and launch the instance
 14. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a4fe52df-a8a3-4aae-8a9e-cf509c5c8fe4)
 15. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/295128a8-1596-4103-b406-d206ee260693)
+16 Now try to login to EC2 with .pem file run the http server in terminal
+```py
+python3 -m http.server 8000
+```
+try to access in web browser you can see the result because of the inbound rules as of now we enabled only ssh traffic. we need to change the inbound rules
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/8b06ee63-260f-49ea-bda2-8630b78756eb)
 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/16cd2120-1fa0-4682-927d-d3f720e959d5)
+
+
+in the VPC network ACL all traffic is allowing here the rule number presence order in the table is first will be taken for configuration.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/55acf60c-7096-432f-9cbe-665164f78c7e)
 
 
