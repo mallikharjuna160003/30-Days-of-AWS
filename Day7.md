@@ -129,5 +129,12 @@ One instancce has Application other dont have, In the target group instances por
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/835dd6ca-2f8d-46d0-ad19-91cb394f5712)
 
+## Finally done with the application load balancer creation.....
+Change the inbound rules of the load balancer traffic
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/f4d5db34-5300-4e87-94af-fb0384959723)
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/6777975e-e689-4366-9353-14a8c0c38722)
+
+Now access the application via the DNS name of the Application Load balancer.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/88db9feb-9266-4792-a5a0-1a4df8b199da)
 
 
