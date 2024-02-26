@@ -97,3 +97,5 @@ Finally!!... Goto the EC2 instances we are able to see the 2 instances running. 
 5. Now successfully logged-in into the Private EC2 instances creates an index.html file.
 6. The other Ec2 instance has not available the application index.html so the requests will come to from ALB to App available host.
 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/bd122f30-da1a-4189-91a0-cb1467e9cf6b)
+
