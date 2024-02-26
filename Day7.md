@@ -84,5 +84,7 @@ Finally!!... Goto the EC2 instances we are able to see the 2 instances running. 
 1. Create an Ec2 instance name it as bastion host <bold>t2-micro, key-pair,Security group (ssh),Network settings select the same VPC,select the public subnet,Auto Assign Public IP address</bold> Launch the instance.
 2. ssh to the bastion host.Below image to send the .pem file to basition host from local host with .pem file access in local terminal.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/133e3bd8-4fb2-4f00-9e9b-a49bb86e5899)
-
+3. This bastion host accessing the Private subnet with key-pair .pem file to the the private EC2 instances.
+4. Now successfully logged-in into the Private EC2 instances creates an index.html file.
+5. The other Ec2 instance has not available the application index.html so the requests will come to from ALB to App available host.
 
