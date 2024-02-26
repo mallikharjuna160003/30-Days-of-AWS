@@ -25,16 +25,38 @@ The following is an example of the rules that you might create for the security 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/179621a0-2ab8-45cc-b608-3f379ac23633)
 
 # To create the VPC
+>> Note: If you use the IPs later kill all the resources the Elastic IPs are pay as use. Elastic IPs are totally free, as long as they are being used by an instance. However, Amazon will charge you $0.005/hr for each EIP that you reserve and do not use.
+
+Follow the steps showing in the diagram
+
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/d74057b7-f8da-42a8-8728-8d7ab85287eb)
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/5088f9af-a92a-4517-b79f-66a7d7336f9c)
 
+
+
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/8a2a998f-285a-4dfb-a301-c758fb48d3e0)
+
+
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e97966de-542c-4f7d-8946-0f95ffbd2b36)
 
 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/d8b14231-4a57-4568-b970-becd517c27d9)
 
 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/26a5a003-b15d-4244-9aa7-c1ad824adea3)
+
+
+
+
+## The following steps describe how to configure a basic launch template:
+
+1. Specify the Amazon Machine Image (AMI) from which to launch the instances.
+2. Choose an instance type that is compatible with the AMI that you specify.
+3. Specify the key pair to use when connecting to instances, for example, using SSH.
+4. Add one or more security groups to allow network access to the instances.
+5. Specify whether to attach additional volumes to each instance.
+6. Add custom tags (key-value pairs) to the instances and volumes.
 
 
