@@ -17,4 +17,13 @@ We can create EC2 instances using the CLI and UI interface.
 3. Zones: In each region there were multiple availability zones whre multiple data centers located.
    for example US there we east,west zones(see the above image).
 4. Regions and Zones will be selected where the application need the more reachability.This way we can reduce the latency.
-   
+   If the the application went down in one zone then we can try to use AWS remaining availability zones based on the requirement and application UP time.
+5. Search EC2 in the search bar and select EC2.
+   ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/1b71979f-0e09-46f0-8492-94f752c5b701)
+6. EC2 Dashboard 
+   ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/0d191368-af33-47df-89fe-37123f5dcc24)
+7. Click on Instances and try launch instances.Now select the OS Amazon Linux, Ubuntu, Windows, Solaris etc.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a6ddaee1-48f8-4988-a9a8-7607f100af80)
+8. Select the version of the OS which we called it as AMI and 64bit and instance types t2 micro, t2 large etc.
+   ![Screenshot from 2024-02-26 19-58-38](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/cd4d6005-7f7d-4f22-aca8-deb1c5062f69)
+10. 
