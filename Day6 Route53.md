@@ -12,5 +12,14 @@ In general we buy the domain names from godaddy, hostinger.Instead of that AWS i
 The records table will keep the domain name and ip mappings.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/1863e85e-ae61-401e-90e8-aa874e810a9f)
 
+In general the request process by comming to Route53 then to Load Balancer then to applications
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/f6c87e5d-6606-482c-bd4d-b5855721f499)
+
+Even you buy the domain name by third party or in Route53 there need to register in  hosted zones of DNS records.
+It is pay as a service for domain names.There will be routing policies included need to configure so many things.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/6a7bf872-92fe-4707-818d-f894421094bd)
+
+
+
 
 
