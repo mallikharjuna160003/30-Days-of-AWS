@@ -42,18 +42,42 @@ The instance IP address subnet VPC all the details are available.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a415d0b9-6994-4bb8-9824-9fc2a67cd62b)
 
 to access the EC2 using the terminal download the key paid .pem file change the permissions to 600 read,write for the user not the groups and others
+
 ```sh
 chmod 600 aws_pair.pem
 ```
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/34ad3a8d-8097-4726-8f31-8c6414fecd2e)
-for performing root user actions for update the default applications packages and installing java,jenkins
+
+for performing root user actions for update the default applications packages and installing java,jenkins checkt status of jenkins start using systemctl command.
+
 ```sh
 sudo su
 apt update
 apt install openjdk-11-jdk
 java --version
 sudo apt-get install jenkins
+systemctl status jenkins
 ```
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/23656a70-089a-4751-8481-41af4ee50e7e)
+
+try accessing the jenkins via browser you can not access it the security groups ,networking settings need to update.
+```sh
+http://<host-ip>:8080
+```
+In the security groups select the inbound rules 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/0b26cc15-fb58-4e03-84eb-609a2d57057b)
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/eaf2a359-8142-48cc-8b76-b0f486bb46bf)
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/9242b584-96a4-4675-b058-858c21fbc958)
+
+Now try to access the jenkins via browser by using the password contained in the below file.
+```sh
+cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/f100480c-44b2-4490-8336-4e7a0812cb1d)
+
+Jenkins is up and running.. :)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/78fad88b-24f5-49ea-a031-decdf5138674)
 
 
 
