@@ -65,7 +65,7 @@ For the launch template creation few complex steps
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/02cc1f3f-fbed-4c87-848c-f22a909258e4)
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e8bd550e-0b16-448b-aa3a-4c8ea2b2f7a5)
 
-To create the Auto Scaling Group
+# To create the Auto Scaling Group diagramatically
 - The instances should be created in the private subnet.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a75cfe22-7ef4-4e32-bf29-80b9886b0ff8)
 
@@ -76,3 +76,9 @@ Not attaching any load balancer now. We will create in the Public subnet.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/6d016135-4a74-44eb-9edb-75679b9cea85)
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/8ffe6047-4efe-44c7-9c36-6b704205c678)
+
+Finally!!... Goto the EC2 instances we are able to see the 2 instances running. in us-east-1b
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/cd62ca9b-2708-49a9-b2d2-3fe88c5db31f)
+
+# Before setting up the Public subnet lets deploy the application in private subnet via bastion host.
+1. Create an Ec2 instance name it as bastion host <bold>t2-micro, key-pair,Security group (ssh),Network settings select the same VPC,select the public subnet,Auto Assign Public IP address</bold> Launch the instance.
