@@ -26,4 +26,14 @@ We can create EC2 instances using the CLI and UI interface.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a6ddaee1-48f8-4988-a9a8-7607f100af80)
 8. Select the version of the OS which we called it as AMI and 64bit and instance types t2 micro, t2 large etc.
    ![Screenshot from 2024-02-26 19-58-38](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/cd4d6005-7f7d-4f22-aca8-deb1c5062f69)
-10. 
+10. Create the Key-Pair for accessing the instance. It is combination of Public private key.We share only the Public key not private key for securities purpose.
+    ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/b66acb59-c64f-42fd-8128-d40ba2a09d1b)
+
+11.Keep the Network settings as default for now
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/0dbfd649-5b9e-4c30-b68f-4a24c7459fbb)
+12 Configure the storage as per required.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/09b53a10-6573-4a59-bba5-d567c5936b8c)
+Finally instance got created.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e4dcc181-960a-4165-8551-19743797cca7)
+
+
