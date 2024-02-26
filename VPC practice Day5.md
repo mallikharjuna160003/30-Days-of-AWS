@@ -14,3 +14,17 @@ Security is a shared responsibility.
 1. AWS default create the Internet gate way,NACL default configuration,Route Table,Public and Private subnets.
 2. We only required to create the EC2 instances.
    ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/b16ff885-7914-4b21-a760-f477f1a3288f)
+3. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/16a66cca-b60d-4529-9ca1-aaf5402572e7)
+4. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/fcc6b1fb-4f1a-4660-a55a-021f07066a46)
+5. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/28e7711d-888f-4f67-91a6-cd04218be4c4)
+6. We have to configure the Network configuration, Availability zones,subnets,Security etc.
+7. After Creating the VPC
+   
+9. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/75b8f8d0-a43e-4383-99c6-12c327e3151a)
+   
+10. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e8012451-fcc4-4d60-a1aa-2e332554b328)
+
+11. ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/3bca9cf6-8427-4ffe-a5d0-931dc79107ce)
+
+
+
