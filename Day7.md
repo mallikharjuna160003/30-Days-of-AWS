@@ -23,3 +23,11 @@ The following is an example of a route table for one of the private subnets, wit
 The following is an example of the rules that you might create for the security group that you associate with your servers. The security group must allow traffic from the load balancer over the listener port and protocol. It must also allow health check traffic.
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/179621a0-2ab8-45cc-b608-3f379ac23633)
+
+# To create the VPC
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/d74057b7-f8da-42a8-8728-8d7ab85287eb)
+
+
+
+
+
