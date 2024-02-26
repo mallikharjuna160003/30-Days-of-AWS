@@ -57,6 +57,22 @@ Follow the steps showing in the diagram
 3. Specify the key pair to use when connecting to instances, for example, using SSH.
 4. Add one or more security groups to allow network access to the instances.
 5. Specify whether to attach additional volumes to each instance.
-6. Add custom tags (key-value pairs) to the instances and volumes.
+6. Add custom tags (key-value pairs) to the instances and volumes. For now we are not using any volumes.
+This is exactly similar to EC2 instance creation
 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/b24ee954-12d0-487e-89ac-18ac6c85ed6b)
+For the launch template creation few complex steps
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/02cc1f3f-fbed-4c87-848c-f22a909258e4)
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/e8bd550e-0b16-448b-aa3a-4c8ea2b2f7a5)
 
+To create the Auto Scaling Group
+- The instances should be created in the private subnet.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a75cfe22-7ef4-4e32-bf29-80b9886b0ff8)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/40275028-ca89-4a10-97d3-da85550b3147)
+Not attaching any load balancer now. We will create in the Public subnet.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/c4393bbe-de4d-418c-885b-b6cec4dbf9ba)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/6d016135-4a74-44eb-9edb-75679b9cea85)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/8ffe6047-4efe-44c7-9c36-6b704205c678)
