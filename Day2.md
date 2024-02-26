@@ -12,3 +12,4 @@ There are two types of hypervisors:
  - Type 2 hypervisors run as an application on an existing OS. Most commonly used on endpoint devices to run alternative operating systems, they carry a performance overhead because they must use the host OS to access and coordinate the underlying hardware resources.
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/d54260ae-2448-4bdb-b49d-bb5676f09ccd)
+
