@@ -19,7 +19,10 @@ Even you buy the domain name by third party or in Route53 there need to register
 It is pay as a service for domain names.There will be routing policies included need to configure so many things.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/6a7bf872-92fe-4707-818d-f894421094bd)
 
-
+Route53 supports
+1. Domain Registration
+2. Hosted Zones
+3. Health Checks -> for the server is health check to route the traffic to the Load Balancer.
 
 
 
