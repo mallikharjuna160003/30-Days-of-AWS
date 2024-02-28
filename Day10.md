@@ -53,6 +53,10 @@ Output:
     }
 }
 ```
+# For EC2 creation
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/997572b1-a471-40e9-800a-14e90269ffea)
+
 
 # For Automation follow the Boto3 documentation using python
 https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
