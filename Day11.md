@@ -16,3 +16,7 @@ Basic Overview
 We need to give the script/template in the form of YAML/Json to the Cloud Formation Template it will process to create the resources.
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/9f7ed6ac-e13e-4394-866b-ecfa6658f41b)
+
+YAML has more readability. It is based on indentation.
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/2e275cf8-afe8-4446-9eb9-7e459c61df26)
