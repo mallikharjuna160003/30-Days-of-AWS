@@ -35,6 +35,42 @@ Using the cloud formation templates we can detect the drifting. It is where some
 # Basic Structure and Components of CFT template
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/10f06911-74cd-46a7-92c0-27a77927bc15)
 
+# Basic Structure of YAML
+
+```yaml
+---
+AWSTemplateFormatVersion: "version date"
+
+Description:
+  String
+
+Metadata:
+  template metadata
+
+Parameters:
+  set of parameters
+
+Rules:
+  set of rules
+
+Mappings:
+  set of mappings
+
+Conditions:
+  set of conditions
+
+Transform:
+  set of transforms
+
+Resources:
+  set of resources
+
+Outputs:
+  set of outputs
+
+```
+
+
 For example, if you created a stack with the following template, CloudFormation provisions an instance with an ami-0ff8a91507f77f867 AMI ID, t2.micro instance type, testkey key pair name, and an Amazon EBS volume.
 
 ```json
