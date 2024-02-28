@@ -20,3 +20,14 @@ We need to give the script/template in the form of YAML/Json to the Cloud Format
 YAML has more readability. It is based on indentation.
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/2e275cf8-afe8-4446-9eb9-7e459c61df26)
+
+Using the cloud formation templates we can detect the drifting. It is where some CFT was written to automate the infrastrucure and manually someone has change the existing.If that CFT developed developer try to run the same template he/she can easily identify the changes using the drift detection.
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/6ce3e7c0-6159-4c63-b236-de091fe072bc)
+
+# Infra Creation using CFT via UI
+- We can directly go to the UI of  CFT goto stack
+- Create Stack
+- import the yaml/json template written for automation
+- submit to CFT
+  
