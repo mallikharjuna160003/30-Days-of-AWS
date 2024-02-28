@@ -130,5 +130,12 @@ Writting the template via UI
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/02601db1-3f52-4652-98fa-6e72e964097c)
 
- 
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/7c125e22-a67c-4c5e-a556-f6ebe21ed5e2)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/08c5155b-0d37-44e8-b663-aaf990c7a618)
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/fa6e1df6-4c38-4f9a-9192-91aacbd0cc37)
+
+
 
