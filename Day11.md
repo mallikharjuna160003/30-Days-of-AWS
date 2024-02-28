@@ -137,5 +137,11 @@ Writting the template via UI
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/fa6e1df6-4c38-4f9a-9192-91aacbd0cc37)
 
+After deleting the S3 bucket
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/700dca43-2f98-4eef-b0d2-d2f42b389b3e)
+
+
+To check the drift here Drift Status telling something went wrong as we deleted the s3 bucket via manual entry.
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/855a4f8a-34a3-4404-aa78-d73afa02ac30)
 
 
