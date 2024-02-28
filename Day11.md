@@ -122,5 +122,13 @@ Resources:
 
 ```
 
+# Creating Stack
 
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/43ae0c71-b3fa-413c-aa93-535471bb546b)
+
+Writting the template via UI
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/02601db1-3f52-4652-98fa-6e72e964097c)
+
+ 
 
