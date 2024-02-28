@@ -144,4 +144,13 @@ After deleting the S3 bucket
 To check the drift here Drift Status telling something went wrong as we deleted the s3 bucket via manual entry.
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/855a4f8a-34a3-4404-aa78-d73afa02ac30)
 
+Now in the template update the directive enabling the versioning
+
+Follow the steps again uploading the template and submitting to Cloud Formation.Do the same manual task. Now we can easily see the drift detection
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/20b568ab-f24e-46d7-8241-cb4fbed2d701)
+
+Drifted changes
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/a640eb41-92de-4cb9-9ca7-7518774c1e6a)
+
 
