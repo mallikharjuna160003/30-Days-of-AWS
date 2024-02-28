@@ -1,4 +1,5 @@
 # AWS Cloud Formation Template (CFT)
+>> https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
 # Cloud Formation:
 - It is a cloud resouce automation template tool.
 - We can write the templates in YAML/JSON format.
@@ -30,4 +31,60 @@ Using the cloud formation templates we can detect the drifting. It is where some
 - Create Stack
 - import the yaml/json template written for automation
 - submit to CFT
-  
+
+# Basic Structure and Components of CFT template
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/10f06911-74cd-46a7-92c0-27a77927bc15)
+
+For example, if you created a stack with the following template, CloudFormation provisions an instance with an ami-0ff8a91507f77f867 AMI ID, t2.micro instance type, testkey key pair name, and an Amazon EBS volume.
+
+```json
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "A sample template",
+    "Resources": {
+        "MyEC2Instance": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "ImageId": "ami-0ff8a91507f77f867",
+                "InstanceType": "t2.micro",
+                "KeyName": "testkey",
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/sdm",
+                        "Ebs": {
+                            "VolumeType": "io1",
+                            "Iops": 200,
+                            "DeleteOnTermination": false,
+                            "VolumeSize": 20
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
+```
+Same in YAML
+
+```yaml
+AWSTemplateFormatVersion: 2010-09-09
+Description: A sample template
+Resources:
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-0ff8a91507f77f867
+      InstanceType: t2.micro
+      KeyName: testkey
+      BlockDeviceMappings:
+        - DeviceName: /dev/sdm
+          Ebs:
+            VolumeType: io1
+            Iops: 200
+            DeleteOnTermination: false
+            VolumeSize: 20
+
+```
+
+
+
