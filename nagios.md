@@ -150,5 +150,7 @@ sudo /etc/init.d/nagios restart
 ```
 Configuring email notifications is outside the scope of this documentation. Refer to your system documentation, search the web, or look to the Nagios Support Portal or Nagios Community Wiki for specific instructions on configuring your Ubuntu system to send email messages to external addresses.
 
+# Finally Done with nagios server configuration
 
+Congratulations! You sucessfully installed Nagios Core. Your journey into monitoring is just beginning. You'll no doubt want to monitor more than just your local machine, so check out the following docs ... 
 
