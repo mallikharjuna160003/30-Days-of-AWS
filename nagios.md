@@ -73,3 +73,28 @@ make install-commandmode
 ```
 Don't start Nagios Core yet - there's still more that needs to be done... 
 
+
+# Customize Configuration
+
+Sample configuration files have now been installed in the /usr/local/nagios/etc directory. These sample files should work fine for getting started with Nagios Core. You'll need to make just one change before you proceed ...
+
+Edit the /usr/local/nagios/etc/objects/contacts.cfg config file with your favorite editor and change the email address associated with the nagiosadmin contact definition to the address you'd like to use for receiving alerts.
+```sh
+vi /usr/local/nagios/etc/objects/contacts.cfg
+```
+# Configure the Web Interface
+
+Install the Nagios Core web config file in the Apache conf.d directory.
+```sh
+make install-webconf
+```
+Create a nagiosadmin account for logging into the Nagios Core web interface. Remember the password you assign to this account - you'll need it later.
+```sh
+htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+```
+Restart Apache to make the new settings take effect.
+```sh
+/etc/init.d/apache2 reload
+```
+
+
