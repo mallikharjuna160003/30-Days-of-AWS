@@ -98,3 +98,36 @@ Restart Apache to make the new settings take effect.
 ```
 
 
+# Compile and Install the Nagios Plugins
+
+Extract the Nagios plugins source code tarball.
+```sh
+cd ~/downloads
+tar xzf nagios-plugins-2.1.3.tar.gz
+cd nagios-plugins-2.1.3
+```
+Compile and install the plugins.
+```sh
+./configure --with-nagios-user=nagios --with-nagios-group=nagios
+make
+make install
+```
+
+
+# Start Nagios Core
+
+Configure Nagios Core to automatically start when the system boots.
+```sh
+ln -s /etc/init.d/nagios /etc/rcS.d/S99nagios
+```
+Verify the sample Nagios Core configuration files.
+```sh
+/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+```
+If there are no errors, start Nagios Core.
+```sh
+/etc/init.d/nagios start
+```
+
+
+
