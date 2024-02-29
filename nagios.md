@@ -48,4 +48,28 @@ Download the source code tarballs of both Nagios Core and the Nagios plugins (vi
 wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.2.1.tar.gz
 wget http://prdownloads.sourceforge.net/sourceforge/nagiosplug/nagios-plugins-2.1.3.tar.gz
 ```
+# Compile and Install Nagios Core
+
+Extract the Nagios Core source code tarball.
+```sh
+cd ~/downloads
+tar xzf nagios-4.2.1.tar.gz
+cd nagios-4.2.1
+```
+ Run the Nagios configure script, passing the name of the group you created earlier like so:
+```sh
+./configure --with-command-group=nagcmd
+```
+Compile the Nagios Core source code.
+```sh
+make all
+```
+Install binaries, init script, sample config files and set permissions on the external command directory.
+```sh
+make install
+make install-init
+make install-config
+make install-commandmode
+```
+Don't start Nagios Core yet - there's still more that needs to be done... 
 
