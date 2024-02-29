@@ -170,4 +170,5 @@ vim /etc/nagios/nrpe.cfg
 
 ![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/9ddedc60-cfab-44fb-a716-79891838e14e)
 
-
+Follow this webpage for next steps it more clear then writing my own :(
+https://www.howtoforge.com/tutorial/how-to-install-nagios-on-ubuntu-2004/
