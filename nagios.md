@@ -129,5 +129,26 @@ If there are no errors, start Nagios Core.
 /etc/init.d/nagios start
 ```
 
+# Login to the Web Interface
+
+You should now be able to access the Nagios Core web interface at the URL below. You'll be prompted for the username (nagiosadmin) and password you specified earlier.
+```sh
+http://localhost/nagios/
+```
+Click on the "Service Detail" navbar link to see details of what's being monitored on your local machine. It will take a few minutes for Nagios Core to check all the services associated with your machine, as the checks are spread out over time.
+
+# Other Modifications
+
+If you want to receive email notifications for Nagios Core alerts, you need to install the mailx (Postfix) package.
+```sh
+sudo apt-get install mailx
+sudo apt-get install postfix
+```
+You'll have to edit the Nagios Core email notification commands found in /usr/local/nagios/etc/objects/commands.cfg and change any '/bin/mail' references to '/usr/bin/mail'. Once you do that you'll need to restart Nagios Core to make the configuration changes live.
+```sh
+sudo /etc/init.d/nagios restart
+```
+Configuring email notifications is outside the scope of this documentation. Refer to your system documentation, search the web, or look to the Nagios Support Portal or Nagios Community Wiki for specific instructions on configuring your Ubuntu system to send email messages to external addresses.
+
 
 
