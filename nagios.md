@@ -154,3 +154,20 @@ Configuring email notifications is outside the scope of this documentation. Refe
 
 Congratulations! You sucessfully installed Nagios Core. Your journey into monitoring is just beginning. You'll no doubt want to monitor more than just your local machine, so check out the following docs ... 
 
+# instead of localhost use the nagios ec2 ip adderess to access the nagios web UI
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/756f79cd-3ec2-4324-87f2-2ea14b5c99ee)
+
+# connecting the Client Ec2 with Nagios server
+- We do not need to install nagios in client machine via NRPE plugins installation can access the nagios server.
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/0621b100-16c3-470c-a58b-ca324a26f200)
+
+After installing the plugins in client add the server IP address in the below file 
+```sh
+vim /etc/nagios/nrpe.cfg
+```
+
+![image](https://github.com/mallikharjuna160003/30-Days-of-AWS/assets/74324685/9ddedc60-cfab-44fb-a716-79891838e14e)
+
+
